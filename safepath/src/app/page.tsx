@@ -1,17 +1,26 @@
-import NearbyHelpScreen from '@/components/NearByHelp'
-import EmergencyHelplineScreen from '@/components/EmergencyHelpline';
-import TrustedContacts from '@/components/TrustedContacts';
-import '../app/page';
+import LandingPage from '../components/LandingPage';
+
+import SafePath from '../components/SafePathClient';
+// import EmergencyHelp from '../components/EmergencyHelp';
+// import NearbyHelp from '../components/NearbyHelp';
+// import TrustedContacts from '../components/TrustedContacts';
+import ReportPage from '../components/Report'; // Optional
+// import '../app/page'; // Optional, depends on your setup
+
+
+
 
 
 
 export default function HomePage() {
   return (
     <main>
-      <NearbyHelpScreen/>
-      <EmergencyHelplineScreen/>
-      <TrustedContacts/>
-
+      <LandingPage />
+      <SafePath />
+      {/* <EmergencyHelp /> */}
+      {/* <NearbyHelp /> */}
+      {/* <TrustedContacts /> */}
+      <ReportPage />
     </main>
   );
 }
