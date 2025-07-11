@@ -27,10 +27,10 @@ const LandingPage = () => {
         router.push('/report');
         break;
       case 'Emergency Helpline':
-        alert('Coming Soon: Quick access to verified helpline numbers');
+         router.push('/emergency');
         break;
       case 'Nearby Help':
-        alert('Coming Soon: Nearby safe zones and volunteers');
+        router.push('/nearbyhelp');
         break;
       case 'Trusted Contacts':
         alert('Coming Soon: Add and alert trusted people in emergencies');

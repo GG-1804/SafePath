@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import styles from './SafePath.module.css';
 import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
+// import L from 'leaflet';
 
 // Fix for Leaflet icons not showing
 // delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -89,7 +89,7 @@ const SafePath = () => {
               ))}
             </MapContainer>
           ) : (
-           <div>Click "Get Location" to begin</div>
+           <div>Click &quot;Get Location&quot; to begin</div>
 
           )}
         </div>
