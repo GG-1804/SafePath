@@ -74,7 +74,7 @@ const LandingPage = () => {
             Your Safety, <span className={styles.highlight}>Our Mission</span>
           </h1>
           <p className={styles.heroDescription}>
-             Empowering women to navigate the world with confidence through intelligent safety technology. Our app provides safe route prediction, emergency fake call functionality, incident reporting, and trusted contact alerts to keep you secure wherever you go. need this
+             Empowering people to navigate the world with confidence through intelligent safety technology. Our app provides safe route prediction, emergency fake call functionality, incident reporting, and trusted contact alerts to keep you secure wherever you go. 
           </p>
         </div>
       </section>
